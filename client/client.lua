@@ -1,7 +1,6 @@
 local Core = exports.vorp_core:GetCore()
 local Script = {}
 local ClientRPC = exports.vorp_core:ClientRpcCall()
-local timeCheck = 60000
 local playtime
 
 Citizen.CreateThread(function ()
