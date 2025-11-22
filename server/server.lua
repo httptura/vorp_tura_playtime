@@ -189,13 +189,6 @@ AddEventHandler('playerDropped', function(reason)
     playersLoaded[source] = nil
 end)
 
-
-function GetTableLength(t)
-    local count = 0
-    for _ in pairs(t) do count = count + 1 end
-    return count
-end
-
 RegisterCommand("playtime", function(source, args, rawCommand)
     local playerId = source
     
